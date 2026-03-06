@@ -1,5 +1,8 @@
 package Arrays;
+// Brute Force Approach : Sort the array and return the last element
 
+// Optimal :
+// Time Complexity : O(N)
 public class LargestNumber {
     public static int largest(int[] nums) {
         int large = nums[0];
