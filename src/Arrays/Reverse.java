@@ -11,8 +11,24 @@ public class Reverse {
         }
         return rev;
     }
+
+    public static void reverse_Better(int[] nums) {
+        int left = 0;
+        int right = nums.length - 1;
+        while(left < right) {
+            int temp = nums[left];
+            nums[left] = nums[right];
+            nums[right] = temp;
+            left++;
+            right--;
+        }
+    }
     public static void main(String[] args) {
         int[] nums = {1,2,3,4,5};
         System.out.println(Arrays.toString(reverse(nums)));
+        reverse_Better(nums);
+        for(int num : nums) {
+            System.out.print(num + " ");
+        }
     }
 }
