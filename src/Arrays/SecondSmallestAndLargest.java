@@ -1,8 +1,14 @@
 package Arrays;
 
+// Time Complexity: O(N), we do two linear traversals in our array.
+//
+//Space Complexity: O(1), as we are using a constant amount of space for variables.
 public class SecondSmallestAndLargest {
     public static int secondSmall(int[] nums) {
         int n = nums.length;
+        if(n == 0 || n == 1) {
+            return -1;
+        }
         int small = Integer.MAX_VALUE;
         int s_small = Integer.MAX_VALUE;
         for(int num : nums) {
@@ -18,6 +24,9 @@ public class SecondSmallestAndLargest {
 
     public static int secondLargest(int[] nums) {
         int n = nums.length;
+        if(n == 0 || n == 1) {
+            return -1;
+        }
         int large = Integer.MIN_VALUE;
         int s_large = Integer.MIN_VALUE;
         for(int num : nums) {
@@ -33,7 +42,7 @@ public class SecondSmallestAndLargest {
 
 
     public static void main(String[] args) {
-        int[] nums = {1,2,7,8,6,11};
+        int[] nums = {1};
         int second_small = secondSmall(nums);
         System.out.println("Second Smallest : " + second_small);
         int second_large = secondLargest(nums);
