@@ -18,14 +18,13 @@ public class RemoveDuplicate {
 
         int idx = 0;
         if(n == 0) return 0;
-        for(int i = 0; i < n; i++) {
+        for(int i = 1; i < n; i++) {
             if(nums[i] != nums[idx]) {
                 idx++;
                 nums[idx] = nums[i];
             }
         }
         return idx + 1;
-
     }
     public static void main(String[] args) {
         int[] nums = {1,1,2,2,3,3};
