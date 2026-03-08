@@ -6,10 +6,9 @@ public class Palindrom {
 
 
     public static boolean check(String str) {
-        String original = str;
         StringBuilder sb = new StringBuilder(str);
         String rvs = sb.reverse().toString();
-        return rvs.equals(original);
+        return rvs.equals(str);
     }
 
     public static boolean isPalindrom(String str) {
@@ -29,6 +28,7 @@ public class Palindrom {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your string : ");
         String str = sc.nextLine();
-        System.out.println(isPalindrom(str));
+        System.out.println(check(str));
+        // System.out.println(isPalindrom(str));
     }
 }
