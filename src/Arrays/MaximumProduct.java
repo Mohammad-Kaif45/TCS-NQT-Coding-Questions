@@ -1,6 +1,8 @@
 package Arrays;
 
 public class MaximumProduct {
+
+    // Brute Force
     public static int maxproduct(int[] nums) {
         int max = nums[0];
         for(int i = 0; i < nums.length; i++) {
