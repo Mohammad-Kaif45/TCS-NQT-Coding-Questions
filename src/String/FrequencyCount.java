@@ -11,6 +11,7 @@ public class FrequencyCount {
         System.out.println(map);
     }
 
+    // Flat 2D array into 1D array
     public static void Flatt2DArray(int[][] nums) {
         List<Integer> list = new ArrayList<>();
         for(int[] arr : nums) {
