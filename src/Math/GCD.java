@@ -13,6 +13,8 @@ public class GCD {
         }
         System.out.println("GCD of " + a + " and " + b + " is : " + a);
     }
+
+    // Using recursion
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter two numbers : ");
