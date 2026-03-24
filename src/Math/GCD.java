@@ -3,6 +3,16 @@ package Math;
 import java.util.Scanner;
 
 public class GCD {
+
+    // Using Euclidean Algorithm
+    public static void find(int a,int b) {
+        while(b != 0) {
+            int temp = b;
+            b = a % b;
+            a = temp;
+        }
+        System.out.println("GCD of " + a + " and " + b + " is : " + a);
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter two numbers : ");
@@ -15,5 +25,6 @@ public class GCD {
             }
         }
         System.out.println("GCD of " + a + " and " + b + " is : " + gcd);
+        find(a,b);
     }
 }
