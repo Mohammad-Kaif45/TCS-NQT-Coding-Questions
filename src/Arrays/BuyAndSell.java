@@ -12,7 +12,7 @@ public class BuyAndSell {
                 profit = nums[i] - buy;
             }
         }
-        return profit; // return the max profit
+        return profit; // return maximum profit you can get
     }
     public static void main(String[] args) {
         int[] prices = {7,1,5,3,6,4};
