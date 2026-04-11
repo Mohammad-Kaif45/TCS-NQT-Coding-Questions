@@ -1,7 +1,7 @@
 package Arrays;
 import java.util.*;
 public class ThreeSum {
-    public static List<List<Integer>> threeSum(int[] nums) {
+    public List<List<Integer>> threeSum(int[] nums) {
         int n = nums.length;
         List<List<Integer>> list = new ArrayList<>();
         Arrays.sort(nums);
@@ -30,7 +30,8 @@ public class ThreeSum {
     }
     public static void main(String[] args) {
         int[] nums = {-1,0,1,2,-1,-4};
-        List<List<Integer>> result = threeSum(nums);
+        ThreeSum obj = new ThreeSum();
+        List<List<Integer>> result = obj.threeSum(nums);
         System.out.println(result);
     }
 }
