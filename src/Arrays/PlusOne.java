@@ -18,7 +18,7 @@ public class PlusOne {
         return result;
     }
     public static void main(String[] args) {
-        int[] nums = {1,2,3};
+        int[] nums = {1,0,0};
         PlusOne obj = new PlusOne();
         int[] ans = obj.plusOne(nums);
         System.out.println(Arrays.toString(ans));
