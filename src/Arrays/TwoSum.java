@@ -27,10 +27,26 @@ public class TwoSum {
         // No pair found
         return new int[] { -1, -1 };
     }
+
+    public static int[] ts(int[] nums, int target) {
+        int[] ans = new int[2];
+        int n = nums.length;
+        for(int i = 0; i < n; i++) {
+            for(int j = i + 1; j < n; j++) {
+                if(nums[i] + nums[j] == target){
+                    ans[0] = i;
+                    ans[1] = j;
+
+                }
+            }
+        }
+        return ans;
+    }
     public static void main(String[] args) {
         int[] nums = {-1,1,3,4,6};
-        System.out.println(Arrays.toString(twoSum(nums,0)));
-        TwoSum obj = new TwoSum();
-        System.out.println(Arrays.toString(obj.twoSumIndices(nums,5)));
+//        System.out.println(Arrays.toString(twoSum(nums,0)));
+//        TwoSum obj = new TwoSum();
+//        System.out.println(Arrays.toString(obj.twoSumIndices(nums,5)));
+        System.out.println(Arrays.toString(ts(nums,0)));
     }
 }
