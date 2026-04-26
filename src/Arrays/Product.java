@@ -13,7 +13,7 @@ public class Product {
         for(int i = 0; i < n; i++) {
             ans[i] = product / nums[i];
         }
-        return ans;
+        return ans; // return ans
     }
     public static void main(String[] args) {
         int[] nums = {1,2,3,4};
