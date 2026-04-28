@@ -4,17 +4,20 @@ public class Substring {
     public static void print(String str) {
         int n = str.length();
 
+        int maxLen = 0;
         for(int i = 0; i < n; i++) {
-            String sub = "";
+            int[] hash = new int[256];
             for(int j = i; j < n; j++) {
-                sub += str.charAt(j);
-                System.out.println(sub);
+                if(hash[str.charAt(j)] == 1) break;
+                int len = j - i + 1;
+                maxLen = Math.max(len,maxLen);
+                hash[str.charAt(j)] = 1;
             }
-
         }
+        System.out.println(maxLen);
     }
     public static void main(String[] args) {
-        String str = "abc";
+        String str = "abcabcbb";
         print(str);
     }
 }
