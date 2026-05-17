@@ -9,7 +9,7 @@ public class AddElementAtBeginning {
         for(int i = 0; i < nums.length; i++) {
             newArr[i + 1] = nums[i];
         }
-        return newArr;
+        return newArr; // RETURN NEW ARRAY
     }
     public static int[] insertAtEnd(int[] nums,int ele) {
         int[] newArr = new int[nums.length + 1];
