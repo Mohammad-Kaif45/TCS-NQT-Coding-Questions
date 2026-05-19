@@ -7,7 +7,7 @@ public class KthLargest {
             pq.offer(num);
             if (pq.size() > k) pq.poll();
         }
-        return pq.peek();
+        return pq.peek(); // return peak
     }
     public static void main(String[] args) {
         int[] nums = {3,7,1,2,9,6};
