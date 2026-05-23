@@ -5,6 +5,7 @@ public class SearchInArray {
         int n = nums.length;
         int left = 0;
         int right = n - 1;
+        // binary search algorithm
         while (left <= right) {
             int mid = left + (right - left) / 2;
             if (nums[mid] == target) return mid;
