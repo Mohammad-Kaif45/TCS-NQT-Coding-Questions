@@ -14,7 +14,7 @@ public class SearchInArray {
                     right = mid - 1;
                 } else {
                     left = mid + 1;
-                }
+                } // 
             } else {
                 if (nums[mid] <= target && target <= nums[right]) {
                     left = mid + 1;
