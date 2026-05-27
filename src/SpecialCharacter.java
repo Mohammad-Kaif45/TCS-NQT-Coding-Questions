@@ -20,7 +20,7 @@ public class SpecialCharacter {
             }
         }
 
-        return specialCount;
+        return specialCount; // return total number of special character
     }
     public static void main(String[] args) {
         String word = "aaAbcBC";
