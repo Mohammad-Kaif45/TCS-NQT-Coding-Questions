@@ -22,6 +22,7 @@ public class MinimumElements {
             return minElement;
         }
 
+        // Driver method
     public static void main(String[] args) {
         int[] nums = {10,11,13,14,15};
         int ans = minElement(nums);
