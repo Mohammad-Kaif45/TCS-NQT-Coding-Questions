@@ -9,7 +9,7 @@ public class MinimumCost {
                 min_cost += cost[i];
             }
         }
-        return min_cost;
+        return min_cost; // return
     }
 
     public static void main(String[] args) {
