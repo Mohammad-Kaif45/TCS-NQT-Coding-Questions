@@ -4,7 +4,7 @@ public class MaxWealth {
 
         int maxSum = Integer.MIN_VALUE;
         for (int i = 0; i < nums.length; i++) {
-            int sum = 0;
+            int sum = 0; // calculate sum
             for (int j = 0; j < nums[i].length; j++) {
                 sum += nums[i][j];
 
