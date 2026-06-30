@@ -1,11 +1,11 @@
 package BinarySearch;
 
 public class BinarySearch {
-    public static int search(int[] nums,int target) {
+    public static int BinarySearch(int[] nums,int target) {
         int n = nums.length;
-        int left = 0;
-        int right = n - 1;
 
+int left = 0;
+int right = n -1;
         while (left <= right) {
             int mid = left + (right - left) / 2;
             if (nums[mid] == target) return mid;
@@ -21,7 +21,7 @@ public class BinarySearch {
     public static void main(String[] args) {
         int[] nums = {2,4,7,8,11,16,18,24,28};
         int target = 18;
-        int ans = search(nums,target);
+        int ans = BinarySearch(nums,target);
         System.out.println(ans);
     }
 }
