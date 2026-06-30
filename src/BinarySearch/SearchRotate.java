@@ -10,11 +10,13 @@ public class SearchRotate {
             return BinarySearch(nums,target,0,nums.length - 1);
         }
 
+        // case 1 :
         // if pivot is found, you have found two ascending array
         if (nums[pivot] == target) {
             return pivot;
         }
 
+        // case 2 :
         if (target > nums[0]) {
             return BinarySearch(nums,target,0,pivot - 1);
         }
