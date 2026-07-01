@@ -16,7 +16,7 @@ public class Cieling {
                 left = mid + 1;
             }
         }
-        return nums[left];
+        return left;
     }
     public static void main(String[] args) {
         int[] nums = {2,4,7,8,11,16,18,24,28};

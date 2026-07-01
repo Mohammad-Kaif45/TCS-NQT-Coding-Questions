@@ -9,7 +9,8 @@ int right = n -1;
         while (left <= right) {
             int mid = left + (right - left) / 2;
             if (nums[mid] == target) return mid;
-            if (nums[mid] > target) {
+            if (nums[mid] < target) {
+
                 right = mid - 1;
 
             } else {
@@ -19,8 +20,8 @@ int right = n -1;
         return -1;
     }
     public static void main(String[] args) {
-        int[] nums = {2,4,7,8,11,16,18,24,28};
-        int target = 18;
+        int[] nums = {10,7,5,4,3,1};
+        int target = 1;
         int ans = BinarySearch(nums,target);
         System.out.println(ans);
     }
