@@ -16,8 +16,8 @@ public class LowerBound {
         return -1;
     }
     public static void main(String[] args) {
-        int[] nums = {3,5,8,15,19};
-        int x = 9;
+        int[] nums = {1,2,4,7};
+        int x = 6;
         int ans = lowerBound(nums,x);
         System.out.println(ans);
     }
