@@ -1,3 +1,5 @@
+package String;
+
 public class SpecialCharacter {
     public static int numberOfSpecialChars(String word) {
         boolean[] lowercase = new boolean[26];

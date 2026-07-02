@@ -1,3 +1,5 @@
+package String;
+
 import java.util.*;
 public class Prefix {
     public static int longestCommonPrefix(int[] arr1, int[] arr2) {

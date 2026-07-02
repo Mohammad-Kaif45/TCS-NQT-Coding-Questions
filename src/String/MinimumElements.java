@@ -1,3 +1,5 @@
+package String;
+
 public class MinimumElements {
 
         public static int minElement(int[] nums) {

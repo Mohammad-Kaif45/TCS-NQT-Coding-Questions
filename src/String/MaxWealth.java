@@ -1,3 +1,5 @@
+package String;
+
 public class MaxWealth {
     public static int maxWealth(int[][] nums) {
 
