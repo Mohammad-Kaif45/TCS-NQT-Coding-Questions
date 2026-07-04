@@ -10,7 +10,7 @@ public class RowColumnMatrix {
                 {36, 44, 91}
         };
 
-        int target = 36;
+        int target = 36; //
 
         RowColumnMatrix obj = new RowColumnMatrix();
         int[] ans = obj.searchElement(matrix,target);
