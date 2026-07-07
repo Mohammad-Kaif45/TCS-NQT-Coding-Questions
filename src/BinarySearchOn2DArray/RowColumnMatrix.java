@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class RowColumnMatrix {
     public static void main(String[] args) {
-        // 2d matrix
+        // 2d matrix input
         int[][] matrix = {
                 {-4,  9, 12},
                 {16, 18, 33},
