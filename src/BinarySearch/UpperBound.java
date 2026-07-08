@@ -6,7 +6,7 @@ public class UpperBound {
         int ans = arr.length;  // Default to length if not found
 
         while (low <= high) {
-            int mid = (low + high) / 2;
+            int mid = (low + high) / 2; // middle
 
             if (arr[mid] > x) {
                 ans = mid;        // Store current index as potential answer
