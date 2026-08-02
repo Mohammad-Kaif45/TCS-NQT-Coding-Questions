@@ -15,7 +15,7 @@ public class UpperBound {
                 low = mid + 1;
             }
         }
-        return ans;  // Return final answer
+        return ans;  // Return final answer answer
     }
 
     public static void main(String[] args) {
