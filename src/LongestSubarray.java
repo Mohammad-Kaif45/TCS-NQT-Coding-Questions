@@ -16,7 +16,7 @@ public class LongestSubarray {
             }
         }
 
-        return maxLength; // return maxlength
+        return maxLength; // return maxLength
     }
 
     public static int longestSubarrayUsingSlidingWindow(int[] nums, int k) {
