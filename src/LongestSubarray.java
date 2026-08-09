@@ -1,7 +1,7 @@
 public class LongestSubarray {
 
     public static int longestSubarray(int[] nums, int k) {
-        int n = nums.length;
+        int n = nums.length; // length of array
         int maxLength = 0;
 
         for (int i = 0; i < n; i++) {
