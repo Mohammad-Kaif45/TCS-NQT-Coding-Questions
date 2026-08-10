@@ -5,7 +5,7 @@ public class CurrSumArray {
         int n = nums.length;
         int curr = 0;
         int[] ans = new int[n];
-        int idx = 0;
+        int idx = 0; // index of ans array
         for (int num : nums) {
             curr = curr + num;
             ans[idx++] = curr;
