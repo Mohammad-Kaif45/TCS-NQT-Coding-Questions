@@ -13,7 +13,7 @@ public class CurrSumArray {
         return ans;
     }
     public static void main(String[] args) {
-        int[] nums = {2,3,1,0,2}; // input array
+        int[] nums = {2,3,1,0,2}; // input array nums
         System.out.println(Arrays.toString(solve(nums)));
     }
 }
