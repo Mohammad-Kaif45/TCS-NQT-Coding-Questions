@@ -1,5 +1,6 @@
 import java.util.Arrays;
 
+// return following sum in new array
 public class CurrSumArray {
     public static int[] solve(int[] nums) {
         int n = nums.length;
