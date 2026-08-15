@@ -14,7 +14,7 @@ public class Minimum {
         return nums[left];
     }
     public static void main(String[] args) {
-        int[] nums = {3,4,5,1,2};
+        int[] nums = {4,5,6,7,0,1,2};
         int ans = minimum(nums);
         System.out.println("Minimum in rotated sorted array : " + ans);
     }
