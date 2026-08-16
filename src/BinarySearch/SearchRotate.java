@@ -49,17 +49,21 @@ public class SearchRotate {
 
             // 4 cases
 
+            // first case
             if (mid < end && nums[mid] > nums[mid + 1]) {
                 return mid;
             }
 
+            // second case
             if (mid > start && nums[mid] < nums[mid - 1]) {
                 return mid - 1;
             }
 
+            // third case
             if (nums[mid] <= nums[start]) {
                 end = mid - 1;
             } else {
+                // fourth case
                 start = mid + 1;
             }
         }
