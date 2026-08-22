@@ -21,7 +21,7 @@ public class LongestPalindromicString {
         while (left<right){
             if(s.charAt(left) !=s.charAt(right)){
                 return false;
-            } // result
+            }
             left++;
             right--;
         }
