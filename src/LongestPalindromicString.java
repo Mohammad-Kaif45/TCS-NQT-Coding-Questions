@@ -28,7 +28,7 @@ public class LongestPalindromicString {
         return true;
     }
     public static void main(String[] args) {
-        String s = "babad";
+        String s = "babad"; // string input
         System.out.println(longestPalindrom(s));
     }
 }
