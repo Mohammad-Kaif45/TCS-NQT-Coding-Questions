@@ -25,10 +25,9 @@ public class PrimeNumber {
         return true;
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number : ");
-        int num = sc.nextInt();
-        System.out.println(prime(num));
-        System.out.println(checkPrime(num));
+        int n = 20;
+        for(int i = 1;i <= n; i++) {
+            System.out.println(i + " " + checkPrime(i));
+        }
     }
 }
