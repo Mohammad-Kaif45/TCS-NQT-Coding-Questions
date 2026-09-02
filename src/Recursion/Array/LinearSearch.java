@@ -15,7 +15,7 @@ public class LinearSearch {
     public static ArrayList<Integer> linearSearch(int[] nums, int target, int index,
                                     ArrayList<Integer> ans) {
 
-        if (index == nums.length) {
+        if (index == nums.length) { // length
             return ans;
         }
 
