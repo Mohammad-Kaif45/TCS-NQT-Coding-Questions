@@ -3,15 +3,15 @@ package Recursion.Array;
 import java.util.ArrayList;
 
 public class LinearSearch {
-//    public static int search(int[] nums,int target,int idx) {
-//        if(idx == nums.length) {
-//            return -1;
-//        }
-//        if (nums[idx] == target) {
-//            return idx;
-//        }
-//        return search(nums,target,idx + 1);
-//    }
+    public static int search(int[] nums,int target,int idx) {
+        if(idx == nums.length) {
+            return -1;
+        }
+        if (nums[idx] == target) {
+            return idx;
+        }
+        return search(nums,target,idx + 1);
+    }
     public static ArrayList<Integer> linearSearch(int[] nums, int target, int index,
                                     ArrayList<Integer> ans) {
 
