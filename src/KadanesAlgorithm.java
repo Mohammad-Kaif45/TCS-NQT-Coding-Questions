@@ -12,7 +12,7 @@ public class KadanesAlgorithm {
                 sum=0;
             }
         }
-        return max;
+        return max; // return maximum
     }
     public static void main(String[] args) {
         int[] nums = {5,4,-1,7,8};
