@@ -16,6 +16,7 @@ public class SortColors {
         }
     }
 
+    // swap function
     public static void swap(int[] nums, int a, int b) {
         int temp = nums[a];   // ✅ swap array elements
         nums[a] = nums[b];
