@@ -1,5 +1,6 @@
 import java.util.Arrays;
 
+// sort colors
 public class SortColors {
     public static void sortColors(int[] nums) {
         int low = 0;
