@@ -18,7 +18,7 @@ public class MissingNumber {
         for (int num : nums) {
             xor = xor ^ num;
         }
-        return xor;// xor
+        return xor;
     }
     public static void main(String[] args) {
         int[] nums = {1,2,4,5,6};
