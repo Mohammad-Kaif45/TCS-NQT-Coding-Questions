@@ -1,5 +1,5 @@
 public class KadanesAlgorithm {
-    //maximum sub array
+    //maximum sub array problem
     public static int maxSubArray(int[] nums){
         int max=Integer.MIN_VALUE;
         int n=nums.length;
