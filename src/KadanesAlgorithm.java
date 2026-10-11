@@ -13,7 +13,7 @@ public class KadanesAlgorithm {
                 sum=0;
             }
         }
-        return max; // return maximum
+        return max; // that suppose if you want to try tge tgingd which have to have the wright and you ent to
     }
     public static void main(String[] args) {
         int[] nums = {5,4,-1,7,8};
