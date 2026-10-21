@@ -9,7 +9,7 @@ public class SumOfDigits {
             int digit = num % 10;
             sum = sum + digit;
             num = num / 10;
-        }
+        } // sum
         return sum;
     }
     public static void main(String[] args) {
