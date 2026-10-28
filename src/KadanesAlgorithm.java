@@ -1,19 +1,34 @@
 public class KadanesAlgorithm {
 
     public static int maxSubArray(int[] nums){
-        int max=Integer.MIN_VALUE;
-        int n=nums.length;
-        int sum=0;
-        for(int num:nums){
-            sum+=num;
-            if(sum>max){
-                max=sum;
+//        int max=Integer.MIN_VALUE;
+//        int n=nums.length;
+//        int sum=0;
+//        for(int num:nums){
+//            sum+=num;
+//            if(sum>max){
+//                max=sum;
+//            }
+//            if(sum<0){
+//                sum=0;
+//            }
+//        }
+//        return max;
+
+        int n = nums.length;
+        int maxSum = Integer.MIN_VALUE;
+        int sum = 0;
+
+        for (int num : nums){
+            sum = sum + num;
+            if (sum > maxSum) {
+                maxSum = sum;
             }
-            if(sum<0){
-                sum=0;
+            if(sum < 0) {
+                sum = 0;
             }
         }
-        return max;
+        return maxSum;
     }
     public static void main(String[] args) {
         int[] nums = {5,4,-1,7,8};
