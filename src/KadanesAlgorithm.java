@@ -30,6 +30,7 @@ public class KadanesAlgorithm {
         }
         return maxSum;
     }
+
     public static void main(String[] args) {
         int[] nums = {5,4,-1,7,8};
         int ans=maxSubArray(nums);
